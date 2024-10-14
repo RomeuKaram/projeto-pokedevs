@@ -20,7 +20,7 @@ function ativarPokedevNaListagem(idPokedevSelecionado) {
 }
 
 function desativarPokedevNaListagem() {
-   const pokedevAtivoNaListagem = document.querySelector("ativo");
+   const pokedevAtivoNaListagem = document.querySelector(".ativo");
    pokedevAtivoNaListagem.classList.remove("ativo");
 }
 
